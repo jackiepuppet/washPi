@@ -1,0 +1,45 @@
+import time
+import RPi.GPIO as GPIO
+import threading
+
+isVibrating = false
+isRunning = false
+lastVibrate = time.time()
+
+lastCycle_start
+lastCycle_stop
+
+sensor_pin = 3
+
+#seconds to check if still vibrating after first detection
+start_window = 30
+stop_window =  60
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(sensor_pin, GPIO.IN)
+
+
+#while  vibrate  true
+# lastVibrate = now
+# sleep for start window
+#if 
+	#set is running true
+	#set last cycle start true
+
+# if vibrating and its been vibrating for more than  qa window, set  isrunning true
+#update last vibrate time to now
+#if not  vibrating and past the stop window, set not running
+
+
+def main():
+	print "main"
+	current_time = time.time(_)
+
+
+
+
+
+
+
+
+
